@@ -1,0 +1,15 @@
+{
+  "canisters": {
+    "william": {
+      "main": "src/william/main.mo",
+      "type": "motoko"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8019",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
